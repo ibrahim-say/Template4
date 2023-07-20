@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- bootstrap  -->
+    <link rel="stylesheet" href="./css_files/bootstrap.css">
+    <!-- css file  -->
+    <link rel="stylesheet" href="./css_files/setting.css">
+    <!-- awesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <!-- Fonts in website  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;500;600;700;800&family=Open+Sans:ital,wght@1,300&family=Roboto:wght@100&display=swap"
+        rel="stylesheet">
+    <title>Setting</title>
+</head>
+
+<body style="background-color: #f1f5f9;">
+    <div class="row m-0 g-0">
+        <div class="sidbar col-3 col-lg-2" style="background-color: white; box-shadow: 0 0 10px #ddd; z-index: 1;">
+            <div class="brand text-center">
+                <h3 class="mt-3">Elzero</h3>
+                <div class="bg-dark" style="width: 122px; height: 2px; margin: 0 auto;"></div>
+                <div class=" rounded-circle bg-dark "
+                    style="width: 15px;height: 15px; margin: -9px auto 0; border: 2px solid white; "></div>
+            </div>
+            <ul class="list-group">
+                <li class="list-group-item border-0">
+                    <a href="./index.html">
+                        <i class="fa-regular fa-chart-bar fa-fw"></i>
+                        <span>Dashboard</span>
+                    </a>
+                </li>
+                <li class="list-group-item border-0">
+                    <a href="./setting.html">
+                        <i class="fa-solid fa-gear fa-fw"></i>
+                        <span>Setting</span>
+                    </a>
+                </li>
+                <li class="list-group-item border-0">
+                    <a href="./profile.html">
+                        <i class="fa-regular fa-user fa-fw"></i>
+                        <span>Profile</span>
+                    </a>
+                </li>
+                <li class="list-group-item border-0">
+                    <a href="./projects.html">
+                        <i class="fa-solid fa-diagram-project fa-fw"></i>
+                        <span>Projects</span>
+                    </a>
+                </li>
+                <li class="list-group-item border-0">
+                    <a href="./courses.html">
+                        <i class="fa-solid fa-graduation-cap fa-fw"></i>
+                        <span>Courses</span>
+                    </a>
+                </li>
+                <li class="list-group-item border-0">
+                    <a href="./friends.html">
+                        <i class="fa-regular fa-circle-user fa-fw"></i>
+                        <span>Friends</span>
+                    </a>
+                </li>
+                <li class="list-group-item border-0">
+                    <a href="./files.html">
+                        <i class="fa-regular fa-file fa-fw"></i>
+                        <span>Files</span>
+                    </a>
+                </li>
+                <li class="list-group-item border-0">
+                    <a href="./plans.html">
+                        <i class="fa-regular fa-credit-card fa-fw"></i>
+                        <span>Plans</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="headerandcontent col-9 col-lg-10">
+            <div class="navbar px-3" style="background-color: white">
+                <div class="search">
+                    <input type="text" placeholder="Type A Keyword" class="p-2 ps-4" aria-describedby="basic-addon1">
+                </div>
+                <div class="position-relative">
+                    <i class="fa-regular fa-bell fa-lg me-2"></i>
+                    <div class=" bg-danger rounded-circle position-absolute "
+                        style="width: 10px;height: 10px; top: 4px; left: 13px;"></div>
+                    <img src="./images/avatar.png" width="50px" class="" alt="">
+                </div>
+            </div>
+            <h1 class="px-3 pt-3 title" style="width: fit-content;">Setting</h1>
+            <div class="p-2 row m-0 row-cols-lg-2 gy-2 ">
+                <div>
+                    <div class="card border-0 p-3 h-100 ">
+                        <h3 class="card-title">Site Control</h3>
+                        <span class="card-text">Control The Website If There Is Maintenance</span>
+                        <div class="d-flex mt-3 justify-content-between align-items-center">
+                            <div>
+                                <h6>Website Control</h6>
+                                <span>Open/Close Website And Type The Reason</span>
+                            </div>
+                            <label>
+                                <div>
+                                    <input type="checkbox" class="d-none" checked>
+                                    <div class="check"></div>
+                                </div>
+                            </label>
+                        </div>
+                        <div class="">
+                            <textarea class="w-100  mt-3" style=" resize: none; height: 150px;"
+                                placeholder="Close Message Content"></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card p-3 border-0 h-100 ">
+                        <h3 class="card-title">General Info</h3>
+                        <span class="card-text ">General Information About Your Account</span>
+                        <div class="mt-3">
+                            <label for="inp1" class="d-block">
+                                <span>First Name</span>
+                            </label>
+                            <input class="w-100 my-2 p-2" id="inp1" type="text" placeholder="First Name">
+                        </div>
+                        <div>
+                            <label for="inp2" class="d-block">
+                                <span>Last Name</span>
+                            </label>
+                            <input class="w-100 my-2 p-2" id="inp2" type="text" placeholder="Last Name">
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center">
+                        <div class="flex-grow-1">
+                            <label for="em" class="d-block ">
+                                <span>Email</span>
+                            </label>
+                            <input class=" me-2 my-2 p-2 " type="email" id="em" disabled placeholder="Email"
+                                style="cursor: no-drop ; width: 95%;">
+                            </div>
+                            <a href="" class="pt-4">Change</a>
+                        
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card border-0 p-3 h-100">
+                        <h3 class="card-title">Security Info</h3>
+                        <span class="card-text">Security Information About Your Account</span>
+                        <div class="d-flex justify-content-between align-items-center mt-3 pb-4" style="border-bottom: 1px solid #ccc ;">
+                            <div>
+                                <h6>Password</h6>
+                                <span>Last Change On 25/10/2021</span>
+                            </div>
+                            <a class="px-1 rounded bg-primary text-light " href="">Change</a>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center mt-3 pb-4" style="border-bottom: 1px solid #ccc ;">
+                            <div>
+                                <h6>Two-Factor Authentication</h6>
+                                <span>Enable/Disable The Feature</span>
+                            </div>
+                            <label>
+                                <div>
+                                    <input type="checkbox" class="d-none" checked>
+                                    <div class="check"></div>
+                                </div>
+                            </label>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center mt-3 pb-4">
+                            <div>
+                                <h6>Devices</h6>
+                                <span>Check The Login Devices List</span>
+                            </div>
+                            <a class="px-1 rounded  text-dark " style="background-color: #ccc;">Devices</a>
+                        </div>
+
+                    </div>
+                </div>
+                <div>
+                    <div class="card p-3 border-0 h-100">
+                        <h3 class="card-title">Social Info</h3>
+                        <span class="card-text">Social Media Information</span>
+                        <div class="input-group mt-3 w-100 bg-ccc">
+                            <div class="input-group-text"><i class="fa-brands fa-twitter center-flex c-grey"></i></div>
+                            <input class="flex-grow-1 p-1 bg-input" type="text" placeholder="Twitter Username">
+                        </div>
+                        <div class="input-group mt-3 w-100">
+                            <div class="input-group-text"><i class="fa-brands fa-facebook-f center-flex c-grey"></i></div>
+                            <input class="flex-grow-1 p-1 bg-input" type="text" placeholder="Facebook Username">
+                        </div>
+                        <div class="input-group mt-3 w-100">
+                            <div class="input-group-text"><i class="fa-brands fa-linkedin center-flex c-grey"></i></div>
+                            <input class="flex-grow-1 p-1 bg-input" type="text" placeholder="Linkedin Username">
+                        </div>
+                        <div class="input-group mt-3 w-100">
+                            <div class="input-group-text"><i class="fa-brands fa-youtube center-flex c-grey"></i></div>
+                            <input class="flex-grow-1 p-1 bg-input" type="text" placeholder="Youtube Username">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card border-0 p-3 h-100">
+                        <h3 class="card-title">Widgets Control</h3>
+                        <span class="card-text">Show/Hide Widgets</span>
+                        <div class="form-check mt-3">
+                            <input class="form-check-input" type="checkbox" name="" id="ch1" checked>
+                            <label class="form-check-lable" for="ch1"><h5>Quick Draft</h5> </label>
+                        </div>
+                        <div class="form-check mt-3">
+                            <input class="form-check-input" type="checkbox" name="" id="ch2" checked>
+                            <label class="form-check-lable" for="ch2"><h5>Yearly Targets</h5> </label>
+                        </div>
+                        <div class="form-check mt-3">
+                            <input class="form-check-input" type="checkbox" name="" id="ch3" checked>
+                            <label class="form-check-lable" for="ch3"><h5>Tickets Statistics</h5> </label>
+                        </div>
+                        <div class="form-check mt-3">
+                            <input class="form-check-input" type="checkbox" name="" id="ch4" checked>
+                            <label class="form-check-lable" for="ch4"><h5>Latest News</h5> </label>
+                        </div>
+                        <div class="form-check mt-3">
+                            <input class="form-check-input" type="checkbox" name="" id="ch5">
+                            <label class="form-check-lable" for="ch5"><h5>Latest Tasks</h5> </label>
+                        </div>
+                        <div class="form-check mt-3">
+                            <input class="form-check-input" type="checkbox" name="" id="ch6" checked>
+                            <label class="form-check-lable" for="ch6"><h5>Top Search Items</h5> </label>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card p-3 h-100 border-0">
+                        <h3 class="card-title">Backup Manager</h3>
+                        <span class="card-text">Control Backup Time And Location</span>
+                        <div class="form-check mt-3">
+                            <input class="form-check-input" type="radio" name="time" id="ra1">
+                            <label class="form-check-lable" for="ra1">Daily</label>
+                        </div>
+                        <div class="form-check mt-3">
+                            <input class="form-check-input" type="radio" name="time" id="ra1">
+                            <label class="form-check-lable" for="ra1">Weekly</label>
+                        </div>
+                        <div class="form-check mt-3 pb-2" style="border-bottom: 1px solid #ccc;">
+                            <input class="form-check-input" type="radio" name="time" id="ra1" checked>
+                            <label class="form-check-lable" for="ra1">Monthly</label>
+                        </div>
+                        <div class="backup row row-cols-md-3 gy-3 m-0">
+                        <div >
+                            <label  style="min-width: 100%;">
+                                <input type="radio" name="back" class="d-none">
+                                <div class="p-3 text-center border rounded">
+                                    <i class="fa-solid fa-server d-block mb-10"></i>
+                                    <div>Megaman</div>
+                                </div>
+                            </label>
+                        </div>
+                    <div >
+                            <label style="min-width: 100%;">
+                                <input type="radio" name="back" class="d-none">
+                                <div class="p-3 text-center border rounded">
+                                    <i class="fa-solid fa-server d-block mb-10"></i>
+                                    <div>Megaman</div>
+                                </div>
+                            </label>
+                        </div>
+                    <div >
+                            <label  style="min-width: 100%;">
+                                <input type="radio" name="back" class="d-none">
+                                <div class="p-3 text-center border rounded">
+                                    <i class="fa-solid fa-server d-block mb-10"></i>
+                                    <div>Megaman</div>
+                                </div>
+                            </label>
+                        </div>
+                        </div>
+                     
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

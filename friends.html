@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- bootstrap  -->
+    <link rel="stylesheet" href="./css_files/bootstrap.css">
+    <!-- css file  -->
+    <link rel="stylesheet" href="./css_files/friend.css">
+    <!-- awesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <!-- Fonts in website  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;500;600;700;800&family=Open+Sans:ital,wght@1,300&family=Roboto:wght@100&display=swap"
+        rel="stylesheet">
+    <title>Friends</title>
+</head>
+
+<body style="background-color: #f1f5f9;">
+    <div class="row m-0 g-0">
+        <div class="sidbar col-2 col-md-3 col-lg-2"
+            style="background-color: white; box-shadow: 0 0 10px #ddd; z-index: 1;">
+            <div class="brand text-center">
+                <h3 class="mt-3">Elzero</h3>
+                <div class="bg-dark d-md-none" style="width: 122px; height: 2px; margin: 0 auto;"></div>
+                <div class=" rounded-circle bg-dark d-md-none"
+                    style="width: 15px;height: 15px; margin: -9px auto 0; border: 2px solid white; "></div>
+            </div>
+            <ul class="list-group mt-3">
+                <li class="list-group-item border-0 mx-2 mb-2  rounded text-center text-md-start ">
+                    <a href="./index.html" class="text-decoration-none text-dark">
+                        <i class="fa-regular fa-chart-bar fa-fw me-2 "></i>
+                        <span class="d-none d-md-inline">Dashboard</span>
+                    </a>
+                </li>
+                <li class="list-group-item border-0 mx-2 mb-2 rounded text-center text-md-start ">
+                    <a href="./setting.html" class="text-decoration-none text-dark">
+                        <i class="fa-solid fa-gear fa-fw me-2"></i>
+                        <span class="d-none d-md-inline">Setting</span>
+                    </a>
+                </li>
+                <li class="list-group-item border-0 mx-2 mb-2  rounded text-center text-md-start">
+                    <a href="./profile.html" class="text-decoration-none text-dark">
+                        <i class="fa-regular fa-user fa-fw me-2"></i>
+                        <span class="d-none d-md-inline">Profile</span>
+                    </a>
+                </li>
+                <li class="list-group-item border-0 mx-2 mb-2   rounded text-center text-md-start">
+                    <a href="./projects.html" class="text-decoration-none text-dark">
+                        <i class="fa-solid fa-diagram-project fa-fw me-2"></i>
+                        <span class="d-none d-md-inline">Projects</span>
+                    </a>
+                </li>
+                <li class="list-group-item border-0 mx-2 mb-2  rounded text-center text-md-start">
+                    <a href="./courses.html" class="text-decoration-none text-dark">
+                        <i class="fa-solid fa-graduation-cap fa-fw me-2"></i>
+                        <span class="d-none d-md-inline">Courses</span>
+                    </a>
+                </li>
+                <li class="list-group-item border-0 mx-2 mb-2 bg-ccc rounded text-center text-md-start">
+                    <a href="./friends.html" class="text-decoration-none text-dark">
+                        <i class="fa-regular fa-circle-user fa-fw me-2"></i>
+                        <span class="d-none d-md-inline">Friends</span>
+                    </a>
+                </li>
+                <li class="list-group-item border-0 mx-2 mb-2 rounded text-center text-md-start">
+                    <a href="./files.html" class="text-decoration-none text-dark">
+                        <i class="fa-regular fa-file fa-fw me-2"></i>
+                        <span class="d-none d-md-inline">Files</span>
+                    </a>
+                </li>
+                <li class="list-group-item border-0 mx-2 mb-2 rounded text-center text-md-start">
+                    <a href="./plans.html" class="text-decoration-none text-dark">
+                        <i class="fa-regular fa-credit-card fa-fw me-2"></i>
+                        <span class="d-none d-md-inline">Plans</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="headerandcontent col-10 col-md-9 col-lg-10">
+            <div class="navbar px-3" style="background-color: white">
+                <div class="search ">
+                    <input type="text" placeholder="Type A Keyword" class="p-2 ps-4 rounded"
+                        aria-describedby="basic-addon1" style="border: 1px solid #ccc;">
+                </div>
+                <div class="position-relative">
+                    <i class="fa-regular fa-bell fa-lg me-2"></i>
+                    <div class=" bg-danger rounded-circle position-absolute "
+                        style="width: 10px;height: 10px; top: 4px; left: 13px;"></div>
+                    <img src="./images/avatar.png" width="50px" class="" alt="">
+                </div>
+            </div>
+            <h1 class="px-3 pt-3 title" style="width: fit-content;">Friends</h1>
+             <div class="row m-0 py-3 px-1 g-4 row-cols-md-2 row-cols-lg-3 row-cols-xl-4">
+                <div>
+                    <div class="card p-2 border-0">
+                        <div class="span-color">
+                            <i class="phone fa-solid fa-phone bg-eee p-2 rounded-circle"></i>
+                            <i class="mail fa-regular fa-envelope bg-eee p-2 rounded-circle"></i>
+                        </div>
+                        <div class="pb-3 border-bottom text-center">
+                            <img src="./images/friend-01.jpg" width="100px" class="rounded-circle " alt="">
+                            <h4>Ibrahim Sayed</h4>
+                            <div class="span-color">JavaScript Developer</div>
+                        </div>
+                        <div class="py-3 border-bottom">
+                        <div>
+                            <i class="fa-regular fa-face-smile fa-fw me-2"></i>
+                            <span>99 Friend</span>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-code-commit fa-fw me-2"></i>
+                            <span>15 Projects</span>
+                        </div>
+                        <div>
+                            <i class="fa-regular fa-newspaper fa-fw me-2"></i>
+                            <span>25 Articles</span>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center py-3">
+                        <div class="span-color flex-grow-1">Joined 02/10/2021</div>
+                       
+                            <a href="" class="px-1 text-bg-primary rounded me-2 text-decoration-none">Profile</a>
+                            <a href="" class="px-1 text-bg-danger rounded me-2 text-decoration-none">Delete</a>
+                       
+
+                    </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card p-2 border-0">
+                        <div class="span-color">
+                            <i class="phone fa-solid fa-phone bg-eee p-2 rounded-circle"></i>
+                            <i class="mail fa-regular fa-envelope bg-eee p-2 rounded-circle"></i>
+                        </div>
+                        <div class="pb-3 border-bottom text-center">
+                            <img src="./images/friend-02.jpg" width="100px" class="rounded-circle " alt="">
+                            <h4>Ibrahim Sayed</h4>
+                            <div class="span-color">JavaScript Developer</div>
+                        </div>
+                        <div class="py-3 border-bottom">
+                        <div>
+                            <i class="fa-regular fa-face-smile fa-fw me-2"></i>
+                            <span>99 Friend</span>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-code-commit fa-fw me-2"></i>
+                            <span>15 Projects</span>
+                        </div>
+                        <div>
+                            <i class="fa-regular fa-newspaper fa-fw me-2"></i>
+                            <span>25 Articles</span>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center py-3">
+                        <div class="span-color flex-grow-1">Joined 02/10/2021</div>
+                       
+                            <a href="" class="px-1 text-bg-primary rounded me-2 text-decoration-none">Profile</a>
+                            <a href="" class="px-1 text-bg-danger rounded me-2 text-decoration-none">Delete</a>
+                       
+
+                    </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card p-2 border-0">
+                        <div class="span-color">
+                            <i class="phone fa-solid fa-phone bg-eee p-2 rounded-circle"></i>
+                            <i class="mail fa-regular fa-envelope bg-eee p-2 rounded-circle"></i>
+                        </div>
+                        <div class="pb-3 border-bottom text-center">
+                            <img src="./images/friend-03.jpg" width="100px" class="rounded-circle " alt="">
+                            <h4>Ibrahim Sayed</h4>
+                            <div class="span-color">JavaScript Developer</div>
+                        </div>
+                        <div class="py-3 border-bottom">
+                        <div>
+                            <i class="fa-regular fa-face-smile fa-fw me-2"></i>
+                            <span>99 Friend</span>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-code-commit fa-fw me-2"></i>
+                            <span>15 Projects</span>
+                        </div>
+                        <div>
+                            <i class="fa-regular fa-newspaper fa-fw me-2"></i>
+                            <span>25 Articles</span>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center py-3">
+                        <div class="span-color flex-grow-1">Joined 02/10/2021</div>
+                       
+                            <a href="" class="px-1 text-bg-primary rounded me-2 text-decoration-none">Profile</a>
+                            <a href="" class="px-1 text-bg-danger rounded me-2 text-decoration-none">Delete</a>
+                       
+
+                    </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card p-2 border-0">
+                        <div class="span-color">
+                            <i class="phone fa-solid fa-phone bg-eee p-2 rounded-circle"></i>
+                            <i class="mail fa-regular fa-envelope bg-eee p-2 rounded-circle"></i>
+                        </div>
+                        <div class="pb-3 border-bottom text-center">
+                            <img src="./images/friend-04.jpg" width="100px" class="rounded-circle " alt="">
+                            <h4>Ibrahim Sayed</h4>
+                            <div class="span-color">JavaScript Developer</div>
+                        </div>
+                        <div class="py-3 border-bottom">
+                        <div>
+                            <i class="fa-regular fa-face-smile fa-fw me-2"></i>
+                            <span>99 Friend</span>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-code-commit fa-fw me-2"></i>
+                            <span>15 Projects</span>
+                        </div>
+                        <div>
+                            <i class="fa-regular fa-newspaper fa-fw me-2"></i>
+                            <span>25 Articles</span>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center py-3">
+                        <div class="span-color flex-grow-1">Joined 02/10/2021</div>
+                       
+                            <a href="" class="px-1 text-bg-primary rounded me-2 text-decoration-none">Profile</a>
+                            <a href="" class="px-1 text-bg-danger rounded me-2 text-decoration-none">Delete</a>
+                       
+
+                    </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card p-2 border-0">
+                        <div class="span-color">
+                            <i class="phone fa-solid fa-phone bg-eee p-2 rounded-circle"></i>
+                            <i class="mail fa-regular fa-envelope bg-eee p-2 rounded-circle"></i>
+                        </div>
+                        <div class="pb-3 border-bottom text-center">
+                            <img src="./images/friend-05.jpg" width="100px" class="rounded-circle " alt="">
+                            <h4>Ibrahim Sayed</h4>
+                            <div class="span-color">JavaScript Developer</div>
+                        </div>
+                        <div class="py-3 border-bottom">
+                        <div>
+                            <i class="fa-regular fa-face-smile fa-fw me-2"></i>
+                            <span>99 Friend</span>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-code-commit fa-fw me-2"></i>
+                            <span>15 Projects</span>
+                        </div>
+                        <div>
+                            <i class="fa-regular fa-newspaper fa-fw me-2"></i>
+                            <span>25 Articles</span>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center py-3">
+                        <div class="span-color flex-grow-1">Joined 02/10/2021</div>
+                       
+                            <a href="" class="px-1 text-bg-primary rounded me-2 text-decoration-none">Profile</a>
+                            <a href="" class="px-1 text-bg-danger rounded me-2 text-decoration-none">Delete</a>
+                       
+
+                    </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card p-2 border-0">
+                        <div class="span-color">
+                            <i class="phone fa-solid fa-phone bg-eee p-2 rounded-circle"></i>
+                            <i class="mail fa-regular fa-envelope bg-eee p-2 rounded-circle"></i>
+                        </div>
+                        <div class="pb-3 border-bottom text-center">
+                            <img src="./images/friend-01.jpg" width="100px" class="rounded-circle " alt="">
+                            <h4>Ibrahim Sayed</h4>
+                            <div class="span-color">JavaScript Developer</div>
+                        </div>
+                        <div class="py-3 border-bottom">
+                        <div>
+                            <i class="fa-regular fa-face-smile fa-fw me-2"></i>
+                            <span>99 Friend</span>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-code-commit fa-fw me-2"></i>
+                            <span>15 Projects</span>
+                        </div>
+                        <div>
+                            <i class="fa-regular fa-newspaper fa-fw me-2"></i>
+                            <span>25 Articles</span>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center py-3">
+                        <div class="span-color flex-grow-1">Joined 02/10/2021</div>
+                       
+                            <a href="" class="px-1 text-bg-primary rounded me-2 text-decoration-none">Profile</a>
+                            <a href="" class="px-1 text-bg-danger rounded me-2 text-decoration-none">Delete</a>
+                       
+
+                    </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card p-2 border-0">
+                        <div class="span-color">
+                            <i class="phone fa-solid fa-phone bg-eee p-2 rounded-circle"></i>
+                            <i class="mail fa-regular fa-envelope bg-eee p-2 rounded-circle"></i>
+                        </div>
+                        <div class="pb-3 border-bottom text-center">
+                            <img src="./images/friend-02.jpg" width="100px" class="rounded-circle " alt="">
+                            <h4>Ibrahim Sayed</h4>
+                            <div class="span-color">JavaScript Developer</div>
+                        </div>
+                        <div class="py-3 border-bottom">
+                        <div>
+                            <i class="fa-regular fa-face-smile fa-fw me-2"></i>
+                            <span>99 Friend</span>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-code-commit fa-fw me-2"></i>
+                            <span>15 Projects</span>
+                        </div>
+                        <div>
+                            <i class="fa-regular fa-newspaper fa-fw me-2"></i>
+                            <span>25 Articles</span>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center py-3">
+                        <div class="span-color flex-grow-1">Joined 02/10/2021</div>
+                       
+                            <a href="" class="px-1 text-bg-primary rounded me-2 text-decoration-none">Profile</a>
+                            <a href="" class="px-1 text-bg-danger rounded me-2 text-decoration-none">Delete</a>
+                       
+
+                    </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card p-2 border-0">
+                        <div class="span-color">
+                            <i class="phone fa-solid fa-phone bg-eee p-2 rounded-circle"></i>
+                            <i class="mail fa-regular fa-envelope bg-eee p-2 rounded-circle"></i>
+                        </div>
+                        <div class="pb-3 border-bottom text-center">
+                            <img src="./images/friend-03.jpg" width="100px" class="rounded-circle " alt="">
+                            <h4>Ibrahim Sayed</h4>
+                            <div class="span-color">JavaScript Developer</div>
+                        </div>
+                        <div class="py-3 border-bottom">
+                        <div>
+                            <i class="fa-regular fa-face-smile fa-fw me-2"></i>
+                            <span>99 Friend</span>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-code-commit fa-fw me-2"></i>
+                            <span>15 Projects</span>
+                        </div>
+                        <div>
+                            <i class="fa-regular fa-newspaper fa-fw me-2"></i>
+                            <span>25 Articles</span>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center py-3">
+                        <div class="span-color flex-grow-1">Joined 02/10/2021</div>
+                       
+                            <a href="" class="px-1 text-bg-primary rounded me-2 text-decoration-none">Profile</a>
+                            <a href="" class="px-1 text-bg-danger rounded me-2 text-decoration-none">Delete</a>
+                       
+
+                    </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card p-2 border-0">
+                        <div class="span-color">
+                            <i class="phone fa-solid fa-phone bg-eee p-2 rounded-circle"></i>
+                            <i class="mail fa-regular fa-envelope bg-eee p-2 rounded-circle"></i>
+                        </div>
+                        <div class="pb-3 border-bottom text-center">
+                            <img src="./images/friend-01.jpg" width="100px" class="rounded-circle " alt="">
+                            <h4>Ibrahim Sayed</h4>
+                            <div class="span-color">JavaScript Developer</div>
+                        </div>
+                        <div class="py-3 border-bottom">
+                        <div>
+                            <i class="fa-regular fa-face-smile fa-fw me-2"></i>
+                            <span>99 Friend</span>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-code-commit fa-fw me-2"></i>
+                            <span>15 Projects</span>
+                        </div>
+                        <div>
+                            <i class="fa-regular fa-newspaper fa-fw me-2"></i>
+                            <span>25 Articles</span>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center py-3">
+                        <div class="span-color flex-grow-1">Joined 02/10/2021</div>
+                       
+                            <a href="" class="px-1 text-bg-primary rounded me-2 text-decoration-none">Profile</a>
+                            <a href="" class="px-1 text-bg-danger rounded me-2 text-decoration-none">Delete</a>
+                       
+
+                    </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card p-2 border-0">
+                        <div class="span-color">
+                            <i class="phone fa-solid fa-phone bg-eee p-2 rounded-circle"></i>
+                            <i class="mail fa-regular fa-envelope bg-eee p-2 rounded-circle"></i>
+                        </div>
+                        <div class="pb-3 border-bottom text-center">
+                            <img src="./images/friend-04.jpg" width="100px" class="rounded-circle " alt="">
+                            <h4>Ibrahim Sayed</h4>
+                            <div class="span-color">JavaScript Developer</div>
+                        </div>
+                        <div class="py-3 border-bottom">
+                        <div>
+                            <i class="fa-regular fa-face-smile fa-fw me-2"></i>
+                            <span>99 Friend</span>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-code-commit fa-fw me-2"></i>
+                            <span>15 Projects</span>
+                        </div>
+                        <div>
+                            <i class="fa-regular fa-newspaper fa-fw me-2"></i>
+                            <span>25 Articles</span>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center py-3">
+                        <div class="span-color flex-grow-1">Joined 02/10/2021</div>
+                       
+                            <a href="" class="px-1 text-bg-primary rounded me-2 text-decoration-none">Profile</a>
+                            <a href="" class="px-1 text-bg-danger rounded me-2 text-decoration-none">Delete</a>
+                       
+
+                    </div>
+                    </div>
+                </div>
+
+             </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
