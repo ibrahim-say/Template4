@@ -1,0 +1,129 @@
+.bg-input{
+    background-color: #e9ecef;
+}
+a{
+    text-decoration:none;
+}
+input , textarea{
+    border: 1px solid #ccc;
+    outline: none;
+    border-radius: 5px;
+}
+.sidbar ul {
+    margin-top: 20px;
+}
+.sidbar ul li {
+    margin-bottom: 10px;
+    width: 90%;
+    border-radius: 5px;
+    margin-left: 5%;
+}
+@media(max-width:576px){
+    .sidbar ul li a span{
+        display: none;
+    }
+    .sidbar{
+        flex: 0 0 auto;
+        width: 16.66666667%;
+    }
+    .headerandcontent{
+        flex: 0 0 auto;
+        width: 83.33333333%;
+    }
+    .brand div{
+        display: none;
+    }
+    .search input{
+        width: 150px;
+    }
+
+}
+.sidbar ul li:nth-child(2){
+    background-color: #ccc;
+}
+.sidbar ul li:hover{
+    background-color: #ccc;
+}
+.sidbar ul li a{
+    color: black;
+}
+.sidbar ul li a i{
+   margin-right: 10px;
+
+}
+.headerandcontent.navbar .search{
+    position: relative;
+}
+
+.headerandcontent .navbar .search::before{
+content: "\f002";
+font-family: "font awesome 6 free";
+font-weight: 900;
+color: #888;
+position: absolute;
+top: 21px;
+left: 20px;
+}
+.headerandcontent .navbar .search input:focus{
+    outline: none;
+}
+.card span{
+    color: #777;
+}
+
+
+.card label .check{
+    background-color: #ccc;
+    width: 70px;
+    height: 25px;
+    border-radius: 17px;
+    position: relative;
+
+}
+.card label .check::before{
+    content: "\f00d";
+    font-family: "font awesome 6 free";
+    font-weight: 900;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 3px;
+    left: 3px;
+    transition: 0.3s;
+    
+
+}
+.card label input:checked + .check{
+    background-color: blue;
+}
+ 
+.card label input:checked + .check::before{
+    content: '\f00c';
+    font-family: "font awesome 6 free";
+    font-weight: 900;
+    left: 47px;
+
+}
+.title{
+    position: relative;
+}
+
+.title::before{
+content: "";
+width: calc(100% - 32px);
+height: 3px;
+background-image: linear-gradient( to right,  black 0, black 25%, white 25%, white 100%);
+position: absolute;
+bottom: -8px;
+}
+
+
+.backup input:checked + div{
+border: 2px solid blue !important;
+color: blue;
+}
