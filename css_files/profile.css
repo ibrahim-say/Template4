@@ -1,0 +1,92 @@
+.span-color{
+    color: #777;
+}
+.bg-ccc{
+    background-color: #ccc;
+}
+.bg-white{
+    background-color: white;
+}
+.bg-eee{
+    background-color: #eee;
+}
+/* header  */
+.headerandcontent.navbar .search{
+    position: relative;
+}
+
+.headerandcontent .navbar .search::before{
+content: "\f002";
+font-family: "font awesome 6 free";
+font-weight: 900;
+color: #888;
+position: absolute;
+top: 21px;
+left: 20px;
+}
+.headerandcontent .navbar .search input:focus{
+    outline: none;
+}
+
+/* title  */
+.title{
+    position: relative;
+}
+
+.title::before{
+content: "";
+width: calc(100% - 32px);
+height: 3px;
+background-image: linear-gradient( to right,  black 0, black 25%, white 25%, white 100%);
+position: absolute;
+bottom: -8px;
+}
+
+/* switch  */
+
+ .check{
+    background-color: #ccc;
+    width: 70px;
+    height: 25px;
+    border-radius: 17px;
+    position: relative;
+
+}
+ .check::before{
+    content: "\f00d";
+    font-family: "font awesome 6 free";
+    font-weight: 900;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 3px;
+    left: 3px;
+    transition: 0.3s;
+    
+
+}
+ input:checked + .check{
+    background-color: blue;
+}
+ 
+ input:checked + .check::before{
+    content: '\f00c';
+    font-family: "font awesome 6 free";
+    font-weight: 900;
+    left: 47px;
+
+}
+
+/* hover  */
+.sidbar ul li:hover{
+    background-color: #ccc;
+}
+
+.hover div:hover{
+    background-color: #f9f9f9;
+}
